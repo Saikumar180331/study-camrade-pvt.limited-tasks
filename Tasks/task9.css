@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Styling for all boxes */
+.box {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border: 2px solid #333;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Different background images for each box */
+.box1 {
+    background-image: url('https://c.pxhere.com/photos/2e/3e/bloom_bunch_of_flowers_colorful_colourful_daisies_flowers-1093996.jpg!d');
+}
+
+.box2 {
+    background-image: url('https://images.pexels.com/photos/53141/rose-red-blossom-bloom-53141.jpeg?cs=srgb&dl=bloom-blossom-flora-53141.jpg&fm=jpg');
+}
+
+.box3 {
+    background-image: url('https://i2.wp.com/youmeandtrends.com/wp-content/uploads/2015/11/beautiful-flowers-pictures-free-download.jpg');
+}
+
+/* Centering content inside each box */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
